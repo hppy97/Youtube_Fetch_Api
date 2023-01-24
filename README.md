@@ -1,6 +1,6 @@
 # Youtube Search API
 
-##Project Goal
+## Project Goal
 To make an API to fetch latest videos sorted in reverse chronological order of their publishing date-time from YouTube for a given tag/search query in a paginated response.
 
 The server fetches latest videos async after every 10 minutes and saves it to the db.
@@ -8,7 +8,8 @@ The server fetches latest videos async after every 10 minutes and saves it to th
 ## Project Detail
 
 - I utilized the power of Django to bring this project to life, utilizing the latest asynchronous views for optimal performance. 
-- To organize the project, I created an "api" app within the Django project, and within that app, I enabled the use of the latest async features in Django. - Additionally, I crafted a model for "videos" that includes a GET API, allowing for easy retrieval of stored video data sorted by the published date and  time in descending order.
+- To organize the project, I created an "api" app within the Django project, and within that app, I enabled the use of the latest async features in Django.
+- Additionally, I crafted a model for "videos" that includes a GET API, allowing for easy retrieval of stored video data sorted by the published date and  time in descending order.
 
 ## Screenshots
 ![Screenshot 2023-01-23 at 10 30 00 PM](https://user-images.githubusercontent.com/41753714/214291144-956bbfcb-b824-4f5c-8f41-459a1665fcb3.png)

@@ -8,7 +8,7 @@ The server fetches latest videos async after every 10 minutes and saves it to th
 ## Project Detail
 
 - I utilized the power of Django to bring this project to life, utilizing the latest asynchronous views for optimal performance. 
-- To organize the project, I created an "api" app within the Django project, and within that app, I enabled the use of the latest async features in Django.
+- To organize the project, I created an "YouTube_Browse" app within the Django project, and within that app, I enabled the use of the latest async features in Django.
 - Additionally, I crafted a model for "videos" that includes a GET API, allowing for easy retrieval of stored video data sorted by the published date and  time in descending order.
 
 ## Screenshots
